@@ -1,5 +1,5 @@
-name: 'Pull Request Stats (no tracking)'
-author: 'fo2rist'
+name: 'Pull Request Stats (with output)'
+author: 'mdellabani'
 description: 'Action to print stats about Pull Request reviewers in PR description'
 inputs:
   token:
