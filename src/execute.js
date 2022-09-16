@@ -63,7 +63,8 @@ const run = async (params) => {
   const content = `${buildComment({ table, periodLength })}${summary}`;
 
   core.debug(`Commit content built successfully: ${content}`);
-
+  
+  core.setOutput("summary", content);
   await postComment({
     octokit,
     content,
